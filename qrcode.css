@@ -13,6 +13,44 @@ html, body{
     
 }
 
+@media screen and (max-width: 374px){
+body{
+    background-image: url("./images/favicon-32x32.png");
+    height: 100vh;
+}
+main{
+    background-color: aquamarine;
+    margin:auto;
+    }
+
+.main{
+    width: 60%;
+    height:30%;
+    border: 0.7rem solid black;
+    margin: auto;
+    border-radius: 10px;
+}
+
+p{
+    width: 80%;
+    height: 80%;
+    color: red;
+    font-family: verdana;
+    text-align: center;
+    margin: 15px auto;
+    
+}
+
+img{
+    display: block;
+    width: 90%;
+    height: 30%;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+}
+
 @media screen and (min-width: 375px){
 
 
@@ -30,6 +68,7 @@ main{
     height: 360px;
     margin: auto;
     /*overflow: hidden;*/
+    padding-top: 1px;
     border-radius: 10px;
 }
 
@@ -40,7 +79,7 @@ img{
     height: 60%;
     margin: 10px auto;
     border-radius: 8px;
-    padding-top: 10px;
+    
     
 }
 
